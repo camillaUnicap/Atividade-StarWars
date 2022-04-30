@@ -1,0 +1,145 @@
+* {
+    background-color: black;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    font-family: sans-serif;
+}
+
+#conteudo {
+   width: 100%;
+    height: 936px;
+    margin-right: auto;
+    /* background-color: #fff; */
+}
+
+#menu {
+    width: 20%;
+    height: 900px;
+    float: left;
+}
+
+#menu_imagem {
+    margin: 0 auto;
+    width: 200px;
+    height: 150px;
+    background-image: url("../imagens/starwars_image.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.menu_itens {
+    margin-top: 20px;
+    color: white;
+    border-radius: 30px;
+    font-size: 26px;
+    text-align: center;
+    padding-top: 20px;
+    box-sizing: border-box;
+}
+
+.menu_itens:hover {
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    transition: 1s;
+}
+
+#container_conteudo_api {
+    width: 80%;
+    height: 900px;
+    float: left;
+    background-image: url(../imagens/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#vidro {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.6);
+    padding-top: 36px;
+    box-sizing: border-box;
+}
+
+#cont_conteudo {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.6);
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 30px;
+    overflow: hidden;
+}
+
+#conteudo_films, #conteudo_people {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.0);
+    border-radius: 30px;
+    display: none;
+    flex-direction: column;
+}
+
+#cont_conteudo_films, #cont_conteudo_people {
+    width: 100%;
+    height: 784px;
+    display: flex;
+    flex-wrap: wrap;
+    overflow-y: scroll;
+    background-color: rgba(0,0,0,0.0);
+    padding-top: 50px;
+    box-sizing: border-box;
+    border-radius: 30px;
+}
+
+.card_info {
+    width: 200px;
+    /* height: 300px; */
+    margin-left: 75px;
+    margin-bottom: 50px;    
+    padding-top: 10px;
+    box-sizing: border-box;
+    border-radius: 30px;
+}
+
+.card_info:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+.card_img{
+    /* width: 220px; */
+    height: 210px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+}
+
+.card_img_item {
+    width: 100%;
+    margin: 0 auot;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card_titulo {
+    width: 100%;
+    height: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 25px;
+    box-sizing: border-box;
+    color: white;
+}
+
+.mensagem_error {
+    text-align: center;
+    font-size: 32px;
+    color: white;
+    width: 800px;
+    height: 500px;
+}
